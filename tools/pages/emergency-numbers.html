@@ -1,0 +1,56 @@
+<!--{"title":"Emergency Numbers by Country (Police, Ambulance, Fire) — 222 Countries | 995995","desc":"Searchable directory of police, ambulance and fire emergency phone numbers for 222 countries and territories. Tap to call, filter by region, check 112 and 911 availability.","scripts":["numbers-data"],"priority":"0.9","ld":{"@context":"https://schema.org","@type":"Dataset","name":"Global emergency telephone numbers","description":"Police, ambulance and fire emergency numbers for 222 countries and territories.","creator":{"@type":"Organization","name":"995995"},"license":"https://995995.com/terms.html"}}-->
+<section class="hero page-hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">&#127758; 222 countries &amp; territories</span>
+      <h1>Emergency numbers for every country</h1>
+      <p class="lead">Police, ambulance and fire — searchable, sortable and tap-to-call. Travelling? Save the number for your destination before you go.</p>
+    </div>
+    <div class="local-card" data-local-numbers>
+      <label for="country-sel">Quick lookup</label>
+      <select id="country-sel" aria-label="Choose a country"></select>
+      <div class="num-grid"></div>
+      <p class="local-note"></p>
+    </div>
+  </div>
+</section>
+<div class="ad-slot" data-ad="top"></div>
+<section style="padding-top:24px">
+  <div class="container">
+    <div class="callout warn">Numbers can change and some regions use local lines. If a number doesn't connect, try <strong>112</strong> (most mobiles in Europe and many other countries) or <strong>911</strong> (the Americas and several other places). If you're unsure, ask anyone nearby to call.</div>
+    <div class="toolbar" role="search">
+      <input class="input" id="dir-q" type="search" placeholder="Search country, code or number…  e.g. Japan, 112, IN" aria-label="Search countries">
+      <select class="select" id="dir-region" aria-label="Filter by region">
+        <option value="">All regions</option><option>Africa</option><option>Asia</option><option>Europe</option><option>Middle East</option><option>North America</option><option>South America</option><option>Oceania</option>
+      </select>
+    </div>
+    <p class="muted" id="dir-count" aria-live="polite"></p>
+    <table class="dir" id="dir">
+      <thead><tr><th data-k="c" scope="col">Country &#8645;</th><th data-k="a" scope="col">Ambulance</th><th data-k="f" scope="col">Fire</th><th data-k="p" scope="col">Police</th><th data-k="r" scope="col">Region &#8645;</th><th scope="col">Notes</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="muted" style="font-size:.85rem;margin-top:14px">Sources: public listings including national emergency-service websites and the Wikipedia list of emergency telephone numbers. Last reviewed September 2026. Spotted an error? <a href="contact.html?topic=correction">Report a correction</a>.</p>
+  </div>
+</section>
+<div class="ad-slot" data-ad="inArticle"></div>
+<section class="section-alt">
+  <div class="container">
+    <div class="section-head"><span class="kicker">What to say</span><h2>How to make an emergency call</h2></div>
+    <div class="grid g3">
+      <div class="card"><h3>1. Location first</h3><p class="muted">Street address, landmark, or GPS coordinates from your phone's map app. If the call drops, they can still find you.</p></div>
+      <div class="card"><h3>2. What happened</h3><p class="muted">"A man has collapsed and isn't breathing." Number of people hurt and any dangers (fire, traffic, weapons).</p></div>
+      <div class="card"><h3>3. Don't hang up</h3><p class="muted">Answer questions and follow instructions. The dispatcher may coach you through CPR until help arrives.</p></div>
+    </div>
+    <div class="grid g3" style="margin-top:20px">
+      <div class="card"><h3>Can't talk?</h3><p class="muted">Many countries offer text-to-emergency (e.g. text 911 in parts of the US and Canada, SMS 70995 in Singapore, 999 BSL/SMS in the UK after registration). Check locally.</p></div>
+      <div class="card"><h3>Travelling</h3><p class="muted">Save the destination's ambulance number in your contacts as "ICE Local" and add your own ICE (In Case of Emergency) contact.</p></div>
+      <div class="card"><h3>Phone emergency features</h3><p class="muted">Set up Emergency SOS and Medical ID on your smartphone — responders can see allergies and contacts from the lock screen.</p></div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container"><div class="cta-band">
+    <div><h2 style="color:#fff">Travel often? Get certified before your next trip.</h2><p style="color:#FFE4E6;margin:0">Free matching with CPR &amp; first-aid courses near you or online.</p></div>
+    <div><a class="btn btn-dark" href="training.html">Find a course &rarr;</a></div>
+  </div></div>
+</section>
